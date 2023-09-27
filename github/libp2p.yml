@@ -7441,6 +7441,10 @@ repositories:
         - js-libp2p-dev
         - rust-libp2p Maintainers
     visibility: public
+    branch_protection:
+      main:
+        required_pull_request_reviews:
+          require_code_owner_reviews: true
   website-1:
     advanced_security: false
     allow_update_branch: false
